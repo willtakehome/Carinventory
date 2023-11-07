@@ -36,6 +36,8 @@ class Car:
     def __str__(self):
         x= f'Make: {self.make}, Model: {self.model}, Year: {self.year}, Price: ${self.price}'
         return x
+
+ 
 from Car import Car
 
 class CarInventoryNode:
@@ -114,6 +116,9 @@ class CarInventoryNode:
         for x in self.cars:
             result += str(x)+'\n'
         return result
+
+
+
 
 from CarInventoryNode import *
 from Car import *
@@ -378,6 +383,9 @@ class CarInventory:
             return True
         else:
             return False
+
+
+
 
 
 from Car import *
